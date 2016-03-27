@@ -1,0 +1,21 @@
+# Name:
+
+Default Dark Layers Theme
+
+
+# Short description:
+
+Minimal dark material theme for RRO layers
+
+
+# Description:
+
+Dark material theme for Android RRO Layers, optimized for YoshiROM (SlimLP based Android 5.1 ROM).
+
+You need a ROM that supports RRO layers!
+
+Themed apps:
+- Settings
+- Framework
+
+Source code: https://github.com/SpiritCroc/DefaultDarkTheme
