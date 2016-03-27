@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Hard coded background and text colors exposed for better theme support -->
+    <!--color name="background_color_holo_blue_light">#000</color-->
+    <!--color name="background_color_transparent">@android:color/transparent</color-->
+    <color name="background_color_white">#ff303030</color>
+    <color name="text_color_black">#ffffff</color>
+    <!--color name="text_color_holo_blue_light">#fff</color-->
+    <color name="text_color_secondary_text_material_light">#b3ffffff</color>
+    <!--color name="text_color_translucent_white">#B3FFFFFF</color-->
+    <!--color name="text_color_white">#fff</color-->
+    <!-- Dashboard background color -->
+    <color name="dashboard_category_background_color">#ff303030</color>
+    <!-- Data usage chart color -->
+    <!--color name="data_usage_stroke_color">#00000000</color-->
+    <!--color name="data_usage_fill_color">@color/exposed_datachartfillcolor</color-->
+    <!--color name="data_usage_secondary_fill_color">@color/exposed_datachartfillcolor_secondary</color-->
+    <color name="data_usage_label_color">#bdbdbd</color>
+    <!--color name="data_usage_secondary_label_color">@color/exposed_data_warning_chart_labelcolor</color-->
+    <!-- Owner info -->
+    <!--color name="ownerinfo_divider_color">#ff404040</color-->
+    <!-- Installed app details -->
+    <!--color name="security_settings_billing_desc_color">#ffffb060</color-->
+    <!-- Dashboard category title text color -->
+    <color name="dashboard_category_title_text">#ff80cbc4</color>
+    <!-- Blacklist colors -->
+    <!--color name="blacklist_enabled_tint">#ff80cbc4</color-->
+    <color name="blacklist_disabled_tint">#ffffffff</color>
+
+    <item name="disabled_alpha_material_light" format="float" type="dimen">0.3</item>
+
+    <!-- Legacy exposed resources for theming -->
+    <color name="exposed_bg_dark">#ff303030</color>
+    <color name="exposed_primary_text_light">#ffffffff</color>
+    <color name="exposed_secondary_text_light">#b3ffffff</color>
+    <color name="exposed_primary_text_dark">#ffffffff</color>
+    <!--color name="exposed_barPrimaryColor">#ff009688</color-->
+    <!--color name="exposed_barPredictionColor">@color/material_empty_color_light</color-->
+    <color name="exposed_datachartfillcolor">#ff80cbc4</color>
+    <color name="exposed_datachartfillcolor_secondary">#ffb2dfdb</color>
+    <color name="exposed_data_limit_chart_labelcolor">#b3ffffff</color>
+    <!--color name="exposed_data_warning_chart_labelcolor">#fff4511e</color-->
+
+    <!-- Palette colors referenced by top-level themes. -->
+    <color name="theme_primary">#ff212121</color>
+    <color name="theme_primary_dark">#ff000000</color>
+    <color name="theme_accent">#ff80cbc4</color>
+
+    <color name="dashboard_background_color">#ff303030</color>
+    <color name="switchbar_background_color">#ff424242</color>
+    <color name="switch_accent_color">#ff80cbc4</color>
+
+    <!--color name="wifi_divider">#ffe0e0e0</color-->
+    <!--color name="sim_noitification">@*android:color/material_deep_teal_500</color-->
+
+
+    <color name="textColorSecondary">#b3ffffff</color>
+
+    <color name="qs_tile_tint_color">#ff80cbc4</color>
+    <color name="qs_tile_default_background_color">#ff424242</color>
+    <color name="qs_tile_activity_background_color">#ff303030</color>
+    <!--color name="floating_action_button_touch_tint">#80ffffff</color-->
+    <!--color name="screencolor_background">#50000000</color-->
+    <!--drawable name="transparent_background">#00000000</drawable-->
+
+    <!--drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable-->
+    <drawable name="expanded_item_bg">#ff303030</drawable>
+    <color name="expanded_item_app_name">#ffffffff</color>
+    <!--color name="expanded_button_color_normal">#4CAF50</color-->
+    <!--color name="expanded_button_color_close">#F44336</color-->
+
+    <!-- DSLV colors -->
+    <color name="dslv_icon_dark">#ff80cbc4</color>
+    <color name="dslv_float_cackground_color">#4dffffff</color>
+
+    <color name="material_empty_color_light">#ff424242</color>
+
+    <color name="running_processes_system_ram">#ffeeeeee</color>
+    <color name="running_processes_apps_ram">#ff80cbc4</color>
+    <color name="running_processes_free_ram">#ff424242</color>
+
+    <!--color name="lock_pattern_background">#00000000</color-->
+    <color name="lock_pattern_view_regular_color">#bdbdbd</color>
+    <!--color name="lock_pattern_view_success_color">#ff80cbc4</color-->
+    <!--color name="lock_pattern_view_error_color">#fff4511e</color-->
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <!-- Theme Name (has to be used for the naming of the apk´s and zips too-->
+    <string name="ThemeName">DefaultDarkTheme</string>
+
+    <!-- Name of the theme author -->
+    <string name="ThemeAuthor">SpiritCroc</string>
+
+    <!-- Short description of the theme -->
+    <string name="ThemeDescription">Dark material theme, optimized for YoshiROM</string>
+
+    <!-- Changelog -->
+    <string name="ThemeChangelog">Initial release</string>
+
+</resources>

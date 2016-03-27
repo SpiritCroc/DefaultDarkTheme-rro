@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- BG: open with... -->
+    <color name="resolver_list_bg">#ff424242</color>
+</resources>
