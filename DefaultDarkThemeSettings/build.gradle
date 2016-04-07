@@ -16,7 +16,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             applicationVariants.all { variant ->
                 variant.outputs.each { output ->
-                    output.outputFile = new File("../Plugin/src/main/assets/Files",
+                    output.outputFile = new File(output.outputFile.parent,
                             "DefaultDarkTheme_Settings.apk")
                 }
             }
