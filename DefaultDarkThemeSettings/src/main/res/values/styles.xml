@@ -82,4 +82,8 @@
         <item name="android:popupTheme">@android:style/Widget.Material.PopupMenu</item>
     </style>
 
+    <style name="Theme.SettingsDialog" parent="@android:style/Theme.Material.Dialog.NoActionBar" />
+
+    <style name="Theme.SettingsAlertDialog" parent="@android:style/Theme.Material.Dialog.Alert" />
+
 </resources>

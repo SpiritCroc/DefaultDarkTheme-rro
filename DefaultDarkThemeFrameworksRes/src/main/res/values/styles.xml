@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Based on Prime-Layers by pierx, released under the cc-by-nc 4.0 license
-Source: https://github.com/pierx/Prime-Layers/blob/master/Prime_Framework/src/dark/res/values/styles.xml
--->
 
 <resources>
 
@@ -167,18 +163,18 @@ Source: https://github.com/pierx/Prime-Layers/blob/master/Prime_Framework/src/da
         <item name="textColor">#ffffffff</item>
     </style>
 
-    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material.Panel">
-        <item name="windowBackground">@android:color/background_dark</item>
-        <item name="windowNoTitle">true</item>
-        <item name="windowIsTranslucent">true</item>
-        <item name="windowContentOverlay">@null</item>
-        <item name="backgroundDimEnabled">true</item>
-        <item name="windowTranslucentStatus">false</item>
-        <item name="windowTranslucentNavigation">false</item>
-        <item name="windowDrawsSystemBarBackgrounds">false</item>
-        <item name="textColor">#ffffffff</item>
-        <item name="textColorHint">#ffffffff</item>
-        <item name="android:colorAccent">#ff80cbc4</item>
+    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorControlActivated">#33ffffff</item><!-- ?attr/colorControlHighlight -> ripple_material_dark -->
+        <item name="android:listPreferredItemPaddingStart">16dp</item><!-- ?attr/dialogPreferredPadding -> list_item_padding_horizontal_material -> action_bar_content_inset_material -->
+        <item name="android:listPreferredItemPaddingEnd">16dp</item><!-- ?attr/dialogPreferredPadding -> list_item_padding_horizontal_material -> action_bar_content_inset_material -->
     </style>
 
     <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.Material.Light.DarkActionBar" />
@@ -221,4 +217,8 @@ Source: https://github.com/pierx/Prime-Layers/blob/master/Prime_Framework/src/da
         <item name="textColorHint">#ffffffff</item>
         <item name="android:colorAccent">#ff80cbc4</item>
     </style>
+
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material" />
+
+    <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog" />
 </resources>

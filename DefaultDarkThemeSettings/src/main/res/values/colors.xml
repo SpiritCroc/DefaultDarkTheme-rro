@@ -14,8 +14,8 @@
     <color name="dashboard_category_background_color">#ff303030</color>
     <!-- Data usage chart color -->
     <!--color name="data_usage_stroke_color">#00000000</color-->
-    <!--color name="data_usage_fill_color">@color/exposed_datachartfillcolor</color-->
-    <!--color name="data_usage_secondary_fill_color">@color/exposed_datachartfillcolor_secondary</color-->
+    <color name="data_usage_fill_color">#ff80cbc4</color>
+    <color name="data_usage_secondary_fill_color">#ffb2dfdb</color>
     <color name="data_usage_label_color">#bdbdbd</color>
     <!--color name="data_usage_secondary_label_color">@color/exposed_data_warning_chart_labelcolor</color-->
     <!-- Owner info -->
@@ -52,7 +52,7 @@
     <color name="switch_accent_color">#ff80cbc4</color>
 
     <!--color name="wifi_divider">#ffe0e0e0</color-->
-    <!--color name="sim_noitification">@*android:color/material_deep_teal_500</color-->
+    <color name="sim_noitification">#ff80cbc4</color>
 
 
     <color name="textColorSecondary">#b3ffffff</color>
@@ -85,4 +85,20 @@
     <!--color name="lock_pattern_view_success_color">#ff80cbc4</color-->
     <!--color name="lock_pattern_view_error_color">#fff4511e</color-->
 
+    <color name="icon_tint_color">#ff80cbc4</color>
+    <color name="material_deep_teal_500">#ff80cbc4</color>
+
+    <drawable name="fp_enrollment_header_landscape">#80cbc4</drawable>
+
+    <!-- Storage Summary Hard colors-->
+    <color name="storage_summary_text_color">#ffffffff</color>
+    <color name="storage_summary_used_text_color">#b3ffffff</color>
+    <color name="storage_volume_color_public">#ff9e9e9e</color>
+    <color name="storage_volume_color_warning">#fff4511e</color>
+    <color name="storage_volume_color_private1">#ff80cbc4</color> <!-- teal -->
+    <color name="storage_volume_color_private2">#ffab47bc</color> <!-- purple -->
+    <color name="storage_volume_color_private3">#fff2a600</color> <!-- orange -->
+    <color name="storage_volume_color_private4">#ffec407a</color> <!-- pink -->
+    <color name="storage_volume_color_private5">#ffc0ca33</color> <!-- green -->
+    <color name="eject_icon_tint_color">#b3ffffff</color>
 </resources>

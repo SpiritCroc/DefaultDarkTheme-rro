@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Based on Prime-Layers by pierx, released under the cc-by-nc 4.0 license
-Source: https://github.com/pierx/Prime-Layers/blob/master/Prime_Framework/src/dark/res/values/attrs.xml
--->
 
 <resources>
     <attr name="windowFixedWidthMajor" format="dimension|fraction" />

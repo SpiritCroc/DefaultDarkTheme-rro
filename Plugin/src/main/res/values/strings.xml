@@ -6,9 +6,6 @@
     <string name="ThemeAuthor">SpiritCroc</string>
 
     <!-- Short description of the theme -->
-    <string name="ThemeDescription">Dark material theme, optimized for YoshiROM</string>
-
-    <!-- Changelog -->
-    <string name="ThemeChangelog">Initial release</string>
+    <string name="ThemeDescription">Minimal dark theme</string>
 
 </resources>
