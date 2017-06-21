@@ -1,21 +1,23 @@
 # Name:
 
-Default Dark Layers Theme
+Default Dark Theme for RRO Layers
 
 
 # Short description:
 
-Minimal dark theme for RRO layers
+Minimal dark theme for RRO Layers
 
 
 # Description:
 
+DEPRECATED: Layers Manager is deprecated, and so is this theme. For a more up-to-date theme, check out the theme for Substratum!
+
 Minimal dark material theme for Android RRO Layers.
 
-You need a ROM that supports RRO layers!
+You need a ROM that supports RRO Layers!
 
 Themed apps:
 - Settings
 - Framework
 
-Source code: https://github.com/SpiritCroc/DefaultDarkTheme
+Source code: https://github.com/SpiritCroc/DefaultDarkTheme-rro
